@@ -1,0 +1,49 @@
+:root,
+html,
+body {
+  background-color: #eeeeee !important;
+}
+
+html.gads-dark-theme {
+  filter: invert(1) hue-rotate(180deg) brightness(1.05) contrast(0.9) !important;
+}
+
+html.gads-dark-theme acx-scorecard,
+html.gads-dark-theme .top-line-scorecard,
+html.gads-dark-theme .scorecard-bar,
+html.gads-dark-theme .chart-container,
+html.gads-dark-theme .toolbelt,
+html.gads-dark-theme .acx-chart-toolbelt {
+  background-color: #eeeeee !important;
+  background: #eeeeee !important;
+  border-color: #dcdcdc !important;
+  box-shadow: none !important;
+}
+
+html.gads-dark-theme .sidenav,
+html.gads-dark-theme .left-nav,
+html.gads-dark-theme .filter-bar,
+html.gads-dark-theme [role="navigation"],
+html.gads-dark-theme .sub-router-container {
+  background-color: #eeeeee !important;
+  border-right: 1px solid #dcdcdc !important;
+}
+
+html.gads-dark-theme canvas,
+html.gads-dark-theme .aplos-chart,
+html.gads-dark-theme time-series-chart-view {
+  background-color: #ffffff !important;
+  filter: none !important;
+}
+
+html.gads-dark-theme .label-name,
+html.gads-dark-theme .label-value,
+html.gads-dark-theme .description {
+  color: #333333 !important;
+}
+
+html.gads-dark-theme .material-icons,
+html.gads-dark-theme material-icon,
+html.gads-dark-theme img {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
